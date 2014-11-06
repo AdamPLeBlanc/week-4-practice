@@ -1,0 +1,37 @@
+ section ul{
+    float:left;
+    background-color: #BFAFD3;
+    width: 15%;
+    height: 80em;
+    display:block;
+    list-style-type: none;
+}
+
+section li{
+    margin-top: 1.25em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+section li:first-of-type{
+    margin-top: 8em;
+}
+
+article{
+    float:left;
+    display:block;
+    background-color: #CCCCFF;
+    width: 42.5%;
+    height: 40em;
+}
+
+.top-left{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.bot-right{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+

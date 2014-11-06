@@ -1,0 +1,33 @@
+
+/*section.inner {
+    height: 40em;
+}*/
+
+h2{
+    float:left;
+    width:85%;
+    height:2em;
+    padding-top: 1em;
+    background-color: #CCCCFF;
+    text-align: center;
+}
+
+article{
+    float:left;
+    display:block;
+    background-color: #CCCCFF;
+    width: 42.5%;
+    height:37em;
+}
+
+article img{
+    display: block;
+    margin: 4em auto 0;
+}
+
+article figcaption{
+    display:block;
+    text-align: center;
+    width: 60%;
+    margin: 1.5em auto 0;
+}

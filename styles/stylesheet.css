@@ -1,0 +1,109 @@
+ * {margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #856AAA;
+    text-align: center;
+    font-family: "Arial","Lucia Sans Unicode";
+    margin: 1em 0;
+}
+
+header li{
+    float:left;
+    list-style-type:none;
+    display:inline-block;
+    width:14.28%;
+    color: #FFFFFF;
+    background-color: #8367B2;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+    border-left: .25em solid #694D98;
+}
+
+header li:first-of-type {
+    border-left: none;
+}
+
+nav a:link, nav a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section ul{
+    float:left;
+    background-color: #BFAFD3;
+    width: 15%;
+    height: 40em;
+    display:block;
+    list-style-type: none;
+}
+
+section li{
+    margin-top: 1.25em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+section li:first-of-type{
+    margin-top: 8em;
+}
+
+article{
+    float:left;
+    display:block;
+    background-color: #CCCCFF;
+    width: 85%;
+    height: 40em;
+}
+
+article img{
+    display: block;
+    margin: 8em auto 0;
+}
+
+article figcaption{
+    display:block;
+    text-align: center;
+    width: 60%;
+    margin: 1.5em auto 0;
+}
+
+footer ul{
+    margin: auto;
+    width:30%;
+}
+
+footer li{
+    list-style-type: none;
+    padding: 1em;
+    display:block;
+    float: left;
+}
+
+.clearfloat{
+    clear:both;
+}
+
+.cf:before, .cf:after 
+{
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.*/
+ 
+.cf {
+    *zoom: 1;
+}
